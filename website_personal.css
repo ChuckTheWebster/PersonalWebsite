@@ -1,0 +1,34 @@
+
+/*
+The following will display inline the list items (for the navigation bar):
+*/
+li {
+    display: inline;
+  }
+/*
+  The following is another way to do this:
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+  */
+
+body {
+    background-color: lightblue;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
