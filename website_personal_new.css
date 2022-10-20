@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    color: lightgray;
+    font-family: avenir-light;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+.navigation-bar {
+    float: right;
+    display: inline;
+    font-family: avenir;
+  }
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /*float: left;*/
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.links {
+    border: 4px solid black;
+    background-color: lightgray;
+    text-align: center;
+    font-family: avenir;
+    font-weight: bold;
+  }
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+
+  /* visited link */
+  a:visited {
+    color: firebrick;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: firebrick;
+  }
+
+  /* selected link */
+  a:active {
+    color: salmon;
+  }
+
+.header-main {
+    font-family: Georgia;
+}
+
+.about {
+    font-family: avenir light;
+}
+
+/*
+#professional-img {
+    float: left;
+}
+*/
+
+
+
+.quote {
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: avenir light;
+    border: 4xp solid white;
+}
