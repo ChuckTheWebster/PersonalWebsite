@@ -1,50 +1,131 @@
 body {
-    background-color: black;
-    color: lightgray;
-    font-family: avenir-light;
-    margin-top: 25px;
+    background-color: white;
+    color: darkslategray;
+    font-family: avenir-light, sans-serif;
+    margin-top: 0px
     margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
-.navigation-bar {
+  /* overflow: visible will render outside the box, hidden will clip it,
+  scroll will create a scroll in the box to see everything, auto adds a scroll
+  bar when necessary*/
+.topnav {
+    background-color: teal;
+    overflow: hidden;
+    border: 2px solid black;
+    padding: 14px 16px;
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: avenir, sans-serif;
+    margin-left: 14px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: firebrick;
+  }
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #right {
     float: right;
+  }
+
+ /*
+.navigation-bar {
+    text-align: right;
     display: inline;
     font-family: avenir;
   }
+*/
+
 
 img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    /*float: left;*/
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    float: left;
 }
+
+/* This didn't work
+img, .header-main{
+vertical-align:top;
+}
+.header-main{
+display:inline-block;
+}
+*/
+
+/* If I used a list for the nav bar instead, this removes the bullets
+ul {
+    list-style: none;
+}
+*/
 
 h1 {
     text-align: center;
+    color: darkslategray;
+    font-family: avenir, sans-serif;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 
 h2 {
     text-align: center;
+    color: darkslategray;
+    font-family: avenir, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 
 .links {
-    border: 4px solid black;
-    background-color: lightgray;
+    /*border: 4px solid black;
+    background-color: lightblue;*/
     text-align: center;
-    font-family: avenir;
+    font-family: avenir, sans-serif;
     font-weight: bold;
+    padding: 5px 5px;
+    letter-spacing: 2px;
+    margin-top: 5px;
   }
 
 /* unvisited link */
 a:link {
-    color: green;
+    color: darkslategray;
   }
 
   /* visited link */
   a:visited {
-    color: firebrick;
+    color: black;
   }
 
   /* mouse over link */
@@ -58,11 +139,12 @@ a:link {
   }
 
 .header-main {
-    font-family: Georgia;
+    font-family: avenir, sans-serif;
+    text-align: left;
 }
 
 .about {
-    font-family: avenir light;
+    font-family: avenir light, sans-serif;
 }
 
 /*
@@ -72,10 +154,11 @@ a:link {
 */
 
 
-
+/*not sure why this isn't doing what I want*/
 .quote {
     display: table-cell;
     vertical-align: bottom;
-    font-family: avenir light;
-    border: 4xp solid white;
+    font-family: avenir light, sans-serif;
+    border: 4xp solid black;
+
 }
