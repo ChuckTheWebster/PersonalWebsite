@@ -4,8 +4,8 @@ body {
     font-family: avenir-light, sans-serif;
     margin-top: 0px
     margin-bottom: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
   }
 
   /* overflow: visible will render outside the box, hidden will clip it,
@@ -58,15 +58,6 @@ body {
     float: right;
   }
 
- /*
-.navigation-bar {
-    text-align: right;
-    display: inline;
-    font-family: avenir;
-  }
-*/
-
-
 img {
     width: 200px;
     height: 200px;
@@ -78,21 +69,6 @@ img {
     border: 2px solid black;
     float: left;
 }
-
-/* This didn't work
-img, .header-main{
-vertical-align:top;
-}
-.header-main{
-display:inline-block;
-}
-*/
-
-/* If I used a list for the nav bar instead, this removes the bullets
-ul {
-    list-style: none;
-}
-*/
 
 h1 {
     text-align: center;
@@ -124,8 +100,8 @@ h2 {
     margin-top: 5px;
   }
 
-/* unvisited link */
-a:link {
+  /* unvisited link */
+  a:link {
     color: darkslategray;
   }
 
@@ -153,18 +129,50 @@ a:link {
     font-family: avenir light, sans-serif;
 }
 
+/*FIXME - not sure why this isn't doing what I want*/
+.quote {
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: avenir light, sans-serif;
+    border: 4xp solid black;
+}
+
+ul {
+  list-style: none;
+}
+/*FIXME - not sure why this isn't doing what I want
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ /*
+.navigation-bar {
+    text-align: right;
+    display: inline;
+    font-family: avenir;
+  }
+*/
+
 /*
 #professional-img {
     float: left;
 }
 */
 
-
-/*not sure why this isn't doing what I want*/
-.quote {
-    display: table-cell;
-    vertical-align: bottom;
-    font-family: avenir light, sans-serif;
-    border: 4xp solid black;
-
+/*
+This didn't work
+img, .header-main{
+vertical-align:top;
 }
+.header-main{
+display:inline-block;
+}
+*/
+
+
+
+
